@@ -11,7 +11,7 @@ Font.register({ family: "Roboto", fonts: [
   { src: join(__dirname, "../fonts/Roboto/Roboto-Italic.ttf"), fontStyle: 'italic' },
  ]});
 
-const markedReactPDF = require("../src/index");
+const markedReactPDF = require("../lib/marked-react-pdf");
 
 const readme = readFileSync(join(__dirname, "../README.md")).toString();
 
